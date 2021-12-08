@@ -17,4 +17,4 @@ range_sum2 <- sapply(
         sum((1+abs(positions - x)) * abs(positions - x) / 2)
     }
 )
-range_sum2[which.min(range_sum2)]
+range_sum2[which.min(range_sum2)] # 99634572
